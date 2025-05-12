@@ -1,0 +1,23 @@
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.animated-btn {
+    width: 200px;
+    height: 200px;
+    background-color: lightblue;
+    margin-top: 20px;
+}
+
+.fade-in {
+    animation: fadeIn 2s ease-in-out;
+}
+
+body {
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
